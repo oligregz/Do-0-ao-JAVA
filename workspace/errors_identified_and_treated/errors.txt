@@ -1,0 +1,39 @@
+
+---------------------------------------------------------------------------------Error List-----------------------------------------------------------------------------
+
+     [ NOT SOLVED ¬
+
+        +
+        +
+        +
+
+
+      [ SOLVED ¬
+
+        1-error with /workspace/.metadata/.plugins/org.eclipse.debug.core deleted
+           r: 
+            ctrl + alt + t
+            $ cd /workspace/.metadata/.plugins
+            $ mkdir org.eclipse.debug.core
+            $ chmod -R 777 org.eclipse.debug.core      
+            *https://stackoverflow.com/questions/25896044/eclipse-could-not-write-to-launch
+        
+        2-error ...
+            r:
+             ctrl + alt + t
+             $
+             *link
+
+
+        3-error ...
+            r:
+             ctrl + alt + t
+             $
+             *link
+
+
+        4-error ...
+            r:
+             ctrl + alt + t
+             $
+             *link
