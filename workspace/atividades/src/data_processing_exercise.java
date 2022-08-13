@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 //	Fazer um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e
 //	mostre:
@@ -9,8 +10,14 @@
 public class data_processing_exercise {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Scanner sc = new Scanner(System.in);
+		double A = sc.nextDouble();
+		double B = sc.nextDouble();
+		double C = sc.nextDouble();
+		
+		
+		sc.close();
 	}
 
 }
