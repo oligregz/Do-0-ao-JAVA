@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 //	Fazer um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e
@@ -12,12 +13,16 @@ public class data_processing_exercise {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
 		double A = sc.nextDouble();
 		double B = sc.nextDouble();
 		double C = sc.nextDouble();
-		
-		
 		sc.close();
+// a)
+		double tra = A * C / 2;
+		System.out.printf(" A área do trinagulo retângulo é: %.2f%n metros quadrados.", tra);
+
+		
 	}
 
 }
