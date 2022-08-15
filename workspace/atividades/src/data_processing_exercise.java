@@ -20,8 +20,12 @@ public class data_processing_exercise {
 		sc.close();
 // a)
 		double tra = A * C / 2;
-		System.out.printf(" A área do trinagulo retângulo é: %.2f%n metros quadrados.", tra);
-
+		System.out.printf("A área do trinagulo retângulo é: %.2f metros quadrados. \n", tra);
+// b)
+		double pi = 3.14159;
+		double r = Math.pow(C, 2);
+		double ca = pi * r;
+		System.out.printf("A área do círculo é: %.5f metros quadrados. %n", ca);
 		
 	}
 
