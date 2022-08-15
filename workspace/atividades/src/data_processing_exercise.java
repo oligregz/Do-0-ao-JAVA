@@ -29,6 +29,10 @@ public class data_processing_exercise {
 // c)	
 		double ta = ((A + B) * C) / 2;
 		System.out.printf("A área do trapezio é: %.2f metros quadrados. %n", ta);
+// d)	
+		double qa = Math.pow(B, 2);
+		System.out.printf("A área do quadrado é: %.2f metros quadrados. %n", qa);
+
 		
 	}
 
