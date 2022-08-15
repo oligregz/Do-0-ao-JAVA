@@ -32,8 +32,10 @@ public class data_processing_exercise {
 // d)	
 		double qa = Math.pow(B, 2);
 		System.out.printf("A área do quadrado é: %.2f metros quadrados. %n", qa);
+// e)	
+		double ra = A * B;
+		System.out.printf("A área do retângulo é: %.2f metros quadrados. %n", ra);
 
-		
 	}
 
 }
