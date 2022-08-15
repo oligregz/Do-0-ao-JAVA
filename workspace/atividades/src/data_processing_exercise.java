@@ -26,6 +26,9 @@ public class data_processing_exercise {
 		double r = Math.pow(C, 2);
 		double ca = pi * r;
 		System.out.printf("A área do círculo é: %.5f metros quadrados. %n", ca);
+// c)	
+		double ta = ((A + B) * C) / 2;
+		System.out.printf("A área do trapezio é: %.2f metros quadrados. %n", ta);
 		
 	}
 
