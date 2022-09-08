@@ -7,11 +7,9 @@ package util;
 
 public class CurrencyConverter {
 	
-	public static double dolValue;
-	public static double realValue;
 	public static final double IOF = 0.06;
 
-	public static double calculateConversion() {
-		return ((dolValue * IOF) + dolValue) * realValue;
+	public static double calculateConversion(double dol, double amount) {
+		return ((dol * IOF) + dol) * amount;
 	}
 }
