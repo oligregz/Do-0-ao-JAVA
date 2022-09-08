@@ -5,6 +5,13 @@ import java.util.Scanner;
 
 import util.CurrencyConverter;
 
+/*
+	Essa classe usa os metodos e atributos da classe
+	CurrencyConverter sem a necessidade de instanciar
+	objetos pois ela e completamente estatica devivo a
+	todos os seus atributos e metodos serem estaticos
+*/
+
 public class ConversionCalculator {
 
 	public static void main(String[] args) {
