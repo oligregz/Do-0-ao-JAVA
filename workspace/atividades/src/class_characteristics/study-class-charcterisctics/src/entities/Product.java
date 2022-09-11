@@ -6,6 +6,12 @@ public class Product {
 	public double price;
 	public int quantity;
 	
+	public Product(String assignedName, double assignedPrice, int assignedQuantity) {
+		this.name = assignedName;
+		this.price = assignedPrice;
+		this.quantity = assignedQuantity;
+	}
+	
 	public double totalValueInStock() {
 		return price * quantity;
 	}
