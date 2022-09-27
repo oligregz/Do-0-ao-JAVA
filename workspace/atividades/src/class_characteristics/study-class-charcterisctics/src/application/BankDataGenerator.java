@@ -11,16 +11,35 @@ public class BankDataGenerator {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Insira o numero da conta e o nome do propietario(a):");
+		System.out.println("Insira o numero da conta:");
 		int accountNumber = sc.nextInt();
-		System.out.println("Insira o nome da conta e o nome do propietario(a):");
+		System.out.println("Insira nome do propietario(a):");
 		String accountHolder = sc.next();
-		System.out.println("Insira um valor de deposito:");
-		double deposit = sc.nextDouble();
+
+
+		//opcao de iniciar com deposito ou nao
 		
-		BankAccount data = new BankAccount(accountNumber, accountHolder, deposit);
+		System.out.println("Deseja realzar um depósito? (1 -> sim / 2 -> nao)");
+		int option = sc.nextInt();
 		
-		System.out.println(data.getData());
+		BankAccount data = new BankAccount(accountNumber, accountHolder);
+		
+		
+		if (option == 1) {
+			System.out.println("Insira um valor de deposito:");
+			double deposit = sc.nextDouble();
+			BankAccount dataWithDeposit = new BankAccount(accountNumber, accountHolder, deposit);
+			System.out.println(dataWithDeposit.getData());
+		}
+		else if (option == 2){
+			System.out.println(data.getData());
+		}
+		else {
+			System.out.println("Pos, voce digitou algo de errado :(");
+		}
+		
+			
+		
 		
 		sc.close();
 	}
