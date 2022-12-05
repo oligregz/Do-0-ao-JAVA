@@ -1,1 +1,6 @@
 INDEX VERSION 1.131+/home/gregory/Área de Trabalho/Java/Do-0-ao-JAVA/workspace/atividades/src/class_characteristics/study-class-charcterisctics/src/entities/.metadata/.plugins/org.eclipse.jdt.core
+4018730491.index
+3906040009.index
+1865797976.index
+3243637523.index
+2457374245.index

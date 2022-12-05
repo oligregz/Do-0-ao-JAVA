@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/gregory/Área de Trabalho/Java/Do-0-ao-JAVA"/>
 			<item value="/home/gregory/Área de Trabalho/Java/Do-0-ao-JAVA/workspace/atividades/src/class_characteristics/study-class-charcterisctics/src"/>
 		</list>
 	</section>
