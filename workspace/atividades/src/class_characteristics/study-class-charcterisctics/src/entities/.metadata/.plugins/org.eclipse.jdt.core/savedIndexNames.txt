@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/home/gregory/Área de Trabalho/Java/Do-0-ao-JAVA/workspace/atividades/src/class_characteristics/study-class-charcterisctics/src/entities/.metadata/.plugins/org.eclipse.jdt.core
